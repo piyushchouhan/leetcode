@@ -10,4 +10,4 @@ def generateParenthesis(self, n: int) -> List[str]:
         
         result = []
         backtrack('', 0, 0)
-        return result
+        return resultcod
