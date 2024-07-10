@@ -1,5 +1,5 @@
 class Solution:
-    def minOperations(self, logs: List[str]) -> int:
+    def minOperations(self, logs) -> int:
         stack = []
         for log in logs:
             if log == "../":
